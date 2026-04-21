@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{% static "style.css" %}">
 </head>
 <body>
-   <form method="POST">
+   <form method="POST" action="/profile/">
     {% csrf_token %}
 
     <input type="text" name="name" placeholder="Enter name">
