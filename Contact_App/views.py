@@ -17,3 +17,6 @@ def Home(request):
 
 def profile(request):
     return render(request, 'website/profile.html')
+
+def loginpage(request):
+    return render(request, 'website/loginpage.html')
